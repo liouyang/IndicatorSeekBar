@@ -1,25 +1,25 @@
 apply plugin: 'com.android.library'
 
 def VERSION_NAME = "2.1.2"
-
+group='com.github.liouyang'
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'indicatorseekbar'
 
-    publishedGroupId = 'com.github.warkiz.widget'
+    publishedGroupId = 'com.github.liouyang.widget'
     libraryName = 'IndicatorSeekbar'
     artifact = 'indicatorseekbar'
 
     libraryDescription = 'A custom SeekBar on Android, which can be changed the size ,color , thumb drawable , tick drawable , tick text and isb_indicator , also , will show an isb_indicator view with progress above SeekBar when seeking. '
 
-    siteUrl = 'https://github.com/warkiz/IndicatorSeekBar'
-    gitUrl = 'https://github.com/warkiz/IndicatorSeekBar.git'
+    siteUrl = 'https://github.com/liouyang/IndicatorSeekBar'
+    gitUrl = 'https://github.com/liouyang/IndicatorSeekBar.git'
 
     libraryVersion = VERSION_NAME
 
-    developerId = 'warkiz'
-    developerName = 'Guangquan Chuang'
-    developerEmail = 'warkiz4j@gmail.com'
+    developerId = 'liouyang'
+    developerName = 'Loy'
+    developerEmail = 'li1241734684@sina.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
